@@ -11,7 +11,7 @@ const Project = () => {
         <div>
           <div className="transform cursor-pointer hover:translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/p5.jpg"
+              src="/images/z5.png"
               alt="portfolio"
               layout="fill"
               className="object-contain"
@@ -21,7 +21,7 @@ const Project = () => {
         <div>
           <div className="transform cursor-pointer hover:translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/p1.jpg"
+              src="/images/z3.png"
               alt="portfolio"
               layout="fill"
               className="object-contain"
@@ -31,7 +31,7 @@ const Project = () => {
         <div>
           <div className="transform cursor-pointer hover:translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/p2.jpg"
+              src="/images/z4.png"
               alt="portfolio"
               layout="fill"
               className="object-contain"
@@ -41,7 +41,7 @@ const Project = () => {
         <div>
           <div className="transform cursor-pointer hover:translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/p3.jpg"
+              src="/images/z2.png"
               alt="portfolio"
               layout="fill"
               className="object-contain"
@@ -51,7 +51,7 @@ const Project = () => {
         <div>
           <div className="transform cursor-pointer hover:translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/p4.jpg"
+              src="/images/z6.png"
               alt="portfolio"
               layout="fill"
               className="object-contain"

@@ -21,10 +21,17 @@ const testimonials = [
     role: "React.js Developer",
     text: "I highly recommend Jora👌 as a ReactJS developer. We studied together, and his proficiency is exceptional. He excels in creating efficient user interfaces, tackling complex challenges with creativity and technical expertise. Jora is a team player, actively contributing ideas and collaborating effectively. His positive attitude and willingness to help others make him a valuable asset. With a strong work ethic and a continuous desire for learning, he stays updated with the latest trends, ensuring his work is always cutting-edge. Jora would undoubtedly excel in any ReactJS development role.🚀",
   },
+
+  {
+    image: "/images/katy.jpg",
+    name: "Katya Smbatyan",
+    role: "Office Manager",
+    text: "I wholeheartedly recommend Jor🤗 as an outstanding programmer with whom I've collaborated in previous business ventures. His technical expertise, strategic problem-solving, and commitment to excellence were evident throughout our projects. Jor possesses a rare combination of kindness and intelligence, fostering a positive and collaborative work environment.👌His friendly demeanor enhances team dynamics, making him not only a skilled professional but also a pleasure to work alongside. I am confident that Jor would be a valuable asset to any organization seeking a talented programmer who excels both technically and interpersonally.😉",
+  },
   {
     image: "/images/c4.jpg",
-    name: "Mane Karapetian",
-    role: "Graphic Developer",
+    name: "Mane Karapetyan",
+    role: "Graphick and UI/UX designer ",
     text: "🌟I wholeheartedly recommend Jora for his exceptional skills and teamwork as a web developer. Having studied together, I've witnessed his intelligence and dedication firsthand. Jora seamlessly integrates into teams, contributing not only technical expertise but also a collaborative spirit that enhances project outcomes.🌟 His problem-solving abilities and attention to detail are remarkable, consistently delivering high-quality solutions. Beyond his professional prowess, Jora is approachable and dependable, making him a pleasure to work with. In summary, Jora is a standout web developer who excels individually and within teams. I have full confidence in his ability to excel and make valuable contributions wherever he goes. 🌟",
   },
 ];
