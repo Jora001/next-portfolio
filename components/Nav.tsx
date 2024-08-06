@@ -11,7 +11,7 @@ const Nav = ({ openNav }: Props) => {
       <div className="flex items-center justify-between w-[80%] mx-auto h-[100%]">
         <h1 className="flex-[0.6] cursor-pointer text-[25px] text-white font-bold">
           WEB
-          <span className="text-yellow-300">DEV</span>
+          <span className="text-[#55e6a5]">DEV</span>
         </h1>
         <div className="hidden md:flex space-x-4">
           <a href="#hero" className="nav-link">
@@ -33,7 +33,7 @@ const Nav = ({ openNav }: Props) => {
       </div>
       <div className="md:hidden mr-4">
         <Bars3Icon
-          className="w-[2rem] h-[2rem] cursor-pointer text-yellow-300"
+          className="w-[2rem] h-[2rem] cursor-pointer text-blue-300"
           onClick={openNav}
         />
       </div>
