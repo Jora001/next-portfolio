@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Particle from "./Particle"; // Import the Particle component
@@ -30,7 +31,7 @@ const Hero = () => {
       <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[3rem] h-full items-center">
         <div>
           <h1 className="text-[35px] md:text-[50px] text-white font-bold">
-            HI, I'M <span className="text-yellow-400">JORA!</span>
+            HI, I'M <span className="text-blue-400">JORA!</span>
           </h1>
           <TextEffect />
           <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
@@ -47,7 +48,7 @@ const Hero = () => {
               className="flex items-center space-x-2"
               onClick={handleWatchVideoo}
             >
-              <LinkIcon className="w-[4rem] h-[4rem] text-[#55e6a5] hover:text-yellow-400 transition-all duration-200" />
+              <LinkIcon className="w-[4rem] h-[4rem] text-[#55e6a5] hover:text-blue-400 transition-all duration-200" />
               <p className="text-[20px] font-semibold text-white">My GitHub</p>
             </button>
             <button
@@ -63,9 +64,9 @@ const Hero = () => {
         </div>
 
         <div className="hidden lg:flex items-center justify-center">
-          <div className="w-[500px] h-[500px] bg-[#55e6a5] rounded-full relative overflow-hidden">
+          <div className="w-[500px] h-[500px] bg-[#55e6a5] rounded-full relative overflow-hidden glow-effect">
             <img
-              src="/images/u1.jpg"
+              src="/images/jok.jpg"
               alt="user"
               className="object-cover w-full h-full rounded-full"
             />

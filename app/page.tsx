@@ -11,6 +11,7 @@ import Testimonial from "@/components/Testimonial";
 import BlogPlus from "@/components/BlogPlus";
 import Blog from "@/components/Blog";
 import Footer from "@/components/Footer";
+import Work from "@/components/work";
 
 export default function Home() {
   const [nav, setNav] = useState(false); // Use useState hook
@@ -29,6 +30,7 @@ export default function Home() {
         <div className="relative z-[30]">
           <About />
           <Services />
+          <Work />
           <Skills />
           <Project />
           <Testimonial />
