@@ -13,9 +13,9 @@ interface Testimonial {
 // Define the testimonials array with the Testimonial type
 const testimonials: Testimonial[] = [
   {
-    image: "/images/c1.jpg",
+    image: "/images/cc1.jpg",
     name: "Hovhannes Khachatryan",
-    role: "Software & Automatation Developer",
+    role: "Software & Automatation Engineer",
     text: "I wholeheartedly recommend Jor for their purposeful, active, and clever mindset. Their dedication and intelligence make them an invaluable addition to any team or project. 🌟                                          ",
   },
   {
@@ -23,6 +23,12 @@ const testimonials: Testimonial[] = [
     name: "Elmira Papoyan",
     role: "Front end Web Developer",
     text: "During our time studying together, Jora consistently showed a strong commitment to doing well in our studies.  He works really hard and never gives up, making him a great study partner. 🚀 Jora is excellent at understanding difficult ideas quickly, which helps us study more efficiently. Not only is Jora a hard worker, but he is also very kind and supportive. 🌈 Even when there are tough assignments or a lot of studying to do, he is always there to help and encourage. 🤝 This makes our study sessions positive and teamwork-oriented. It doesn't just make learning easier, but it also makes studying together enjoyable. 😊",
+  },
+  {
+    image: "/images/c5.png",
+    name: "Lilit Poghosyan",
+    role: "Software Engineer",
+    text: "I am pleased to write this recommendation for Jora, who I have had the privilege of working with at our education center. Jora is an exceptionally intelligent individual with a remarkable ability to adapt to new technologies and embrace challenges with enthusiasm.What truly sets Jora apart is his flexibility and eagerness to learn. He consistently approaches new problems with a positive attitude and quickly masters new tools and techniques. His knack for coming up with smart, effective solutions to complex issues has impressed everyone who has worked with him. Jora’s ability to stay on top of emerging technologies and his readiness to tackle any challenge make him a valuable asset. His creativity and problem-solving skills ensure that he excels in dynamic environments and contributes significantly to any project or team.",
   },
   {
     image: "/images/Arpi.jpg",
@@ -39,7 +45,7 @@ const testimonials: Testimonial[] = [
   {
     image: "/images/katy.jpg",
     name: "Katya Smbatyan",
-    role: "Office Manager",
+    role: "Experienced Communications Specialist",
     text: "I wholeheartedly recommend Jor🤗 as an outstanding programmer with whom I've collaborated in previous business ventures. His technical expertise, strategic problem-solving, and commitment to excellence were evident throughout our projects. Jor possesses a rare combination of kindness and intelligence, fostering a positive and collaborative work environment.👌His friendly demeanor enhances team dynamics, making him not only a skilled professional but also a pleasure to work alongside. I am confident that Jor would be a valuable asset to any organization seeking a talented programmer who excels both technically and interpersonally.😉",
   },
   {

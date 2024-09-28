@@ -15,7 +15,7 @@ const Work = () => {
         <div>
           <div className="hover:scale-110 transform transition-all duration-300 uppercase font-semibold text-center p-[2rem]">
             <img
-              src="/images/lum.avif" // Path to the image in the public folder
+              src="/images/lum.avif.jpg" // Path to the image in the public folder
               alt="Rocket Launch"
               className="w-[6rem] h-[6rem] mx-auto rounded-full text-[#d3fae8]"
             />
@@ -23,10 +23,10 @@ const Work = () => {
               Software Developer{" "}
             </h1>
             <p className="text-[14px] text-[#f8f8f8] font-normal">
-              In 2024, I joined the Lumoox team as a Software Developer,
-              responsible for all technical aspects. My role includes ensuring
-              software quality, managing technical requirements, and delivering
-              innovative solutions
+              In 2024 I joined the TechMind team as a Software Developer, where
+              I ensure software quality, manage technical requirements, and
+              deliver innovative solutions. Additionally, I have experience
+              teaching Next.js.
             </p>
           </div>
         </div>
@@ -51,19 +51,19 @@ const Work = () => {
         <div>
           <div className="hover:scale-110 transform transition-all duration-300 uppercase font-semibold text-center p-[2rem]">
             <img
-              src="/images/prof.png" // Path to the image in the public folder
+              src="/images/prof.jpg" // Path to the image in the public folder
               alt="Rocket Launch"
               className="w-[6rem] h-[6rem] mx-auto rounded-full text-[#d3fae8]"
             />
             <h1 className="text-[20px] text-[#ffffff] md:text-[20px] mt-[1.5rem] mb-[1.5rem]">
-              MANAGER OF SALES
+              BDS. Senior specialist{" "}
             </h1>
             <p className="text-[13px] text-[#fcfcfc] font-normal">
-              I worked at Profit+ for over 5 years as a Manager of Sales, where
-              I led sales strategies, managed client relationships, and drove
-              revenue growth. My role involved overseeing sales teams,
-              developing strategic plans, and achieving targets to contribute to
-              the company's success.
+              I worked at Profit+ for over 5 years as a Business development and
+              sales specialist, where I led sales strategies, managed client
+              relationships, and drove revenue growth. My role involved
+              overseeing sales teams, developing strategic plans, and achieving
+              targets to contribute to the company's success.
             </p>
           </div>
         </div>
