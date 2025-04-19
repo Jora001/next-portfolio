@@ -20,12 +20,10 @@ const settings = {
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
-        infinite: true,
-        dots: true,
       },
     },
     {
-      breakpoint: 600,
+      breakpoint: 640,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -35,36 +33,48 @@ const settings = {
 };
 
 const images = [
+  "/images/421.jpg",
   "/images/m1.jpg",
+  "/images/484727950_2353356678377589_5696544542029974731_n.jpg",
   "/images/m2.jpg",
   "/images/m3.jpg",
   "/images/m4.jpg",
+  "/images/423.jpg",
   "/images/m5.jpg",
   "/images/m6.jpg",
+  "/images/photo_2025-04-19_16-44-44.jpg",
   "/images/m7.jpg",
   "/images/m8.jpg",
   "/images/m9.jpg",
-
   "/images/m10.jpg",
-  "/images/m11.jpg",
 ];
 
 const BlogPlus = () => {
   return (
-    <div className="pt-[4rem] md:pt-[8rem] pb-[4rem] bg-[#02050a]">
-      <h1 className="heading">
-        EVE<span className="text-blue-400">NTS</span>
-      </h1>
-      <div className="mt-[4rem] w-[80%] mx-auto">
+    <section className="bg-[#02050a] py-16 md:py-24">
+      <div className="text-center mb-12">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-wide">
+          EVE<span className="text-blue-400">NTS</span>
+        </h1>
+        <p className="mt-4 text-gray-400 text-base md:text-lg">
+        </p>
+      </div>
+      <div className="w-[90%] max-w-6xl mx-auto">
         <Slider {...settings}>
           {images.map((img, index) => (
-            <div key={index} className="p-[1rem]">
-              <img src={img} alt={`Slide ${index}`} className="w-full h-auto" />
+            <div key={index} className="px-4">
+              <div className="rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+                <img
+                  src={img}
+                  alt={`Slide ${index}`}
+                  className="w-full h-[300px] object-cover"
+                />
+              </div>
             </div>
           ))}
         </Slider>
       </div>
-    </div>
+    </section>
   );
 };
 

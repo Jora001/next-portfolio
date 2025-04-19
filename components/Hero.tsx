@@ -26,7 +26,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="h-[88vh] bg-[url('/images/banner.jpg')] mt-[10vh] bg-cover bg-center relative">
+    <div className="h-[88vh] bg-[url('/images/banner.jpg')]  bg-cover bg-center relative">
       <Particle />
       <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[3rem] h-full items-center">
         <div>
@@ -35,7 +35,7 @@ const Hero = () => {
           </h1>
           <TextEffect />
           <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
-            I'm a Software developer from Gyumri, Armenia, and my journey in
+            I'm a Software engineer from Gyumri, Armenia, and my journey in
             programming began in 2022. At 23 years old, I enjoy the challenges
             and creativity coding offers. I believe in self-education and am
             always seeking to develop my skills. Through online courses,
@@ -66,7 +66,7 @@ const Hero = () => {
         <div className="hidden lg:flex items-center justify-center">
           <div className="w-[500px] h-[500px] bg-[#55e6a5] rounded-full relative overflow-hidden glow-effect">
             <img
-              src="/images/jok.jpg"
+              src="/images/jora.jpg"
               alt="user"
               className="object-cover w-full h-full rounded-full"
             />

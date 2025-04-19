@@ -7,52 +7,54 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="pt-32 pb-16 bg-[#02050a]">
-      <div className="grid border-b border-gray-400 pb-24 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 w-4/5 mx-auto gap-12">
-        <div className="flex items-center space-x-6">
-          <div className="md:w-26 md:h-26 w-20 h-20 flex items-center justify-center rounded-full bg-[#55e6a5]">
-            <MapIcon className="md:w-16 md:h-16 w-14 h-14 text-black" />
+    <footer className="pt-24 pb-10 bg-[#02050a] text-white">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-[90%] max-w-7xl mx-auto border-b border-gray-600 pb-12">
+        {/* Address */}
+        <div className="flex items-start space-x-6">
+          <div className="w-20 h-20 flex items-center justify-center rounded-full bg-[#55e6a5]">
+            <MapIcon className="w-10 h-10 md:w-12 md:h-12 text-black" />
           </div>
           <div>
-            <h1 className="text-2xl mb-1 font-semibold text-white">Address</h1>
-            <p className="text-lg w-11/12 text-white opacity-60">
-              Armenia: Gyumri
-            </p>
+            <h2 className="text-xl font-semibold mb-1">Address</h2>
+            <p className="text-gray-300 opacity-70">Armenia, Gyumri</p>
           </div>
         </div>
-        <div className="flex items-center space-x-6">
-          <div className="md:w-26 md:h-26 w-20 h-20 flex items-center justify-center rounded-full bg-[#55e6a5]">
-            <DevicePhoneMobileIcon className="md:w-16 md:h-16 w-14 h-14 text-black" />
+
+        {/* Phone */}
+        <div className="flex items-start space-x-6">
+          <div className="w-20 h-20 flex items-center justify-center rounded-full bg-[#55e6a5]">
+            <DevicePhoneMobileIcon className="w-10 h-10 md:w-12 md:h-12 text-black" />
           </div>
           <div>
-            <h1 className="text-2xl mb-1 font-semibold text-white">Phone</h1>
-            <p className="text-lg w-11/12 text-white opacity-60">
-              +37495704571
-            </p>
+            <h2 className="text-xl font-semibold mb-1">Phone</h2>
+            <p className="text-gray-300 opacity-70">+374 95 70 45 71</p>
           </div>
         </div>
-        <div className="flex items-center space-x-6">
-          <div className="md:w-26 md:h-23 w-20 h-20 flex items-center justify-center rounded-full bg-[#55e6a5]">
-            <EnvelopeIcon className="md:w-16 md:h-16 w-14 h-14 text-black" />
+
+        {/* Email */}
+        <div className="flex items-start space-x-6">
+          <div className="w-20 h-20 flex items-center justify-center rounded-full bg-[#55e6a5]">
+            <EnvelopeIcon className="w-10 h-10 md:w-12 md:h-12 text-black" />
           </div>
           <div>
-            <h1 className="text-2xl mb-1 font-semibold text-white">
-              Send Us an Email
-            </h1>
-            <p className="text-lg w-11/12 text-white opacity-60">
-              jorhovsepyan.2001@gmail.com{" "}
+            <h2 className="text-xl font-semibold mb-1">Email</h2>
+            <p className="text-gray-300 opacity-70 break-words">
+              jorhovsepyan.2001@gmail.com
             </p>
           </div>
         </div>
       </div>
-      <div className="w-4/5 mt-8 mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between">
-        <div className="text-sm mb-8 md:mb-0 text-white opacity-20">
-          Software developer | Jora Hovsepyan
-        </div>
-        <div className="flex items-center space-x-10">
-          <p className="text-sm text-white opacity-20">Terms & Conditions</p>
-          <p className="text-sm text-white opacity-20">Privacy Policy</p>
-          <p className="text-sm text-white opacity-20">Sitemap</p>
+
+      {/* Bottom Section */}
+      <div className="mt-8 w-[90%] max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+        <p className="text-sm text-gray-400">
+          © {new Date().getFullYear()} Jora Hovsepyan | Software Developer
+        </p>
+
+        <div className="flex items-center space-x-6 text-sm text-gray-400">
+          <a href="#" className="hover:text-white transition">Terms</a>
+          <a href="#" className="hover:text-white transition">Privacy</a>
+          <a href="#" className="hover:text-white transition">Sitemap</a>
         </div>
       </div>
     </footer>

@@ -4,11 +4,11 @@ const TextEffect = () => {
   return (
     <TypeAnimation
       sequence={[
-        "Software Developer!",
+        "Software Engineer!",
         1500,
         "Web Developer!",
         1500,
-        "Software Developer!",
+        "Software Engineer!",
         1500,
         "Web Developer!",
         1500,

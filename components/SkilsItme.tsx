@@ -3,7 +3,7 @@ import React from "react";
 interface Props {
   title: string;
   year: string;
-  description: string; // Add description prop
+  description: string;
 }
 
 const SkilsItme: React.FC<Props> = ({ title, year, description }) => {
