@@ -46,17 +46,27 @@ const projects: ProjectInfo[] = [
   {
     title: "Doctors Website",
     description: "Project | Medical Platform for Doctors & Patients Technologies: React.js, TypeScript, Node.js, Express.js, MySQL Features: Patient–Doctor Communication, Booking System, Doctor Profiles This is a full-stack web platform designed to connect patients and doctors in a seamless and user-friendly way. Patients can explore detailed doctor profiles, review their experience and expertise, ask medical questions directly, and even book appointments for checkups. The system was built to simulate a real-life healthcare platform with interactive and secure communication between patients and medical professionals. I developed both the Front-end and Back-end, integrating real-time features and a structured database to support dynamic user interactions. This project allowed me to dive deeper into full-stack development, improve my database design skills, and build a meaningful product that could solve real-world problems in healthcare communication.",
-  type: "image",
+    type: "image",
     src: "/images/Doc1.jpg",
     additionalImages: ["/images/Doc2.jpg", "/images/Doc3.jpg", "/images/Doc4.jpg", "/images/Doc5.jpg", "/images/Doc6.jpg", "/images/Doc7.jpg", "/images/Doc8.jpg"],
+  },
+   {
+ title: "Nike Shoes Website",
+    description: " Personal Project | Nike Shoes Website Clone Technologies: React.js, CSS Modules / Tailwind, Authentication (Sign Up / Login) Features: User Registration & Login Pages This is a personal project where I built a functional clone of the Nike Shoes website, focusing on clean design, responsive layout, and essential user flows. The project includes fully designed Sign Up and Login pages to simulate a real-world e-commerce experience. The goal was to deepen my understanding of front-end architecture, routing, and form handling, while also improving my skills in authentication UI/UX. The result is a sleek and interactive site that reflects both branding and functionality principles of major e-commerce platforms.",
+    type: "video",
+    src: "/images/z2.png",
+    video: "/videos/recording2025-11-03132611.mp4",
+    additionalImages: ["/images/z5-1.png", "/images/z5-2.png", "/images/z5-3.png"],
   },
   {
     title: "Live Chat Node.js",
     description: "Full-Stack Project | Real-Time Live Chat Platform Technologies: Node.js, Express.js, Socket.io  Features: Real-Time Messaging, Online Status, Last Seen, Message History This project is a real-time chat platform developed using Node.js and Socket.io, where friends can chat instantly and maintain conversation history. Users can see who is currently online, and also view the last seen status of their contacts. All chat messages are stored securely in the database, allowing users to revisit past conversations at any time. The platform supports real-time interactions and reflects user activity dynamically. This project significantly boosted my skills in WebSockets, server-side architecture, and real-time communication, while also teaching me how to build a responsive and engaging user experience on the front end.",
-  type: "image",
+    type: "image",
     src: "/images/Live.jpg",
     additionalImages: ["/images/Live1.jpg", "/images/Live2.jpg"],
   },
+  // Նոր պրոեկտ
+ 
 ];
 
 const Project = () => {

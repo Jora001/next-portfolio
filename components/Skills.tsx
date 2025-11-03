@@ -177,7 +177,15 @@ const Skills: React.FC = () => {
             />
           </div>
           <div className="space-y-8">
-            {/* <EducationCard
+            <EducationCard
+              logo="/images/348429792_202199426035529_6708822501197010812_n.jpg"
+              title="Tumo Labs Yerevan Guided Self-Learning
+"
+              year="2025"
+              description=" Participated in the Tumo Labs Yerevan Guided Self-Learning program to deepen both technical and soft skills, regularly completing projects, challenges, and other assignments."
+            />
+
+             {/* <EducationCard
               logo="/images/gurus.jpg"
               title="Gurus LLC Clinical SAS BASE Programming"
               year="2025"

@@ -13,10 +13,10 @@ const workData: WorkItem[] = [
   {
     id: 1,
     title: "Software Engineer",
-    company: "TechMind Company Full-Time (Remote)",
-    image: "/images/lum.avif.jpg",
+    company: "SynapTech Company Full-Time (Remote)",
+    image: "/images/synaptechag_logo.jpg",
     description:
-      "I joined TechMind in June 2024 as a Front-End Developer specializing in React.js. Throughout my time here, I’ve shown strong professional growth by expanding my knowledge beyond the front end. I proactively learned back-end technologies such as Node.js and Express.js, and successfully contributed to backend tasks, which led to my transition into a Software Engineer role.In addition to development, I also took on a mentorship role, supporting team members as a Next.js mentor, helping them understand complex concepts and guiding them through project challenges.",
+      "I joined SynapTech in June 2024 as a Front-End Developer specializing in React.js. Throughout my time here, I’ve shown strong professional growth by expanding my knowledge beyond the front end. I proactively learned back-end technologies such as Node.js and Express.js, and successfully contributed to backend tasks, which led to my transition into a Software Engineer role.In addition to development, I also took on a mentorship role, supporting team members as a Next.js mentor, helping them understand complex concepts and guiding them through project challenges.",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const workData: WorkItem[] = [
   },
   {
     id: 3,
-    title: "Next.js Developer",
+    title: "Node.js Developer",
     company: "UFreeSoft Agency (contract)",
     image: "/images/ufreesoft_logo.jpg",
     description:

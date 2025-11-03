@@ -36,7 +36,7 @@ const Hero = () => {
           <TextEffect />
           <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
             I'm a Software engineer from Gyumri, Armenia, and my journey in
-            programming began in 2022. At 23 years old, I enjoy the challenges
+            programming began in 2022. At 24 years old, I enjoy the challenges
             and creativity coding offers. I believe in self-education and am
             always seeking to develop my skills. Through online courses,
             bootcamps, and hands-on projects, I stay updated with the latest
