@@ -111,7 +111,7 @@ const Skills: React.FC = () => {
     "     (OAuth,  Helmet)"
   ];
 
-  {/* const dataScienceSkills = [
+   const dataScienceSkills = [
     "SAS/BASE",
     "Statistical Programming",
     "Data Analysis",
@@ -119,7 +119,10 @@ const Skills: React.FC = () => {
     "Macro Programming",
     "SQL",
     "R Programming"
-  ]; */}
+  ];
+
+
+  
 
   const otherSkills = [
     "Git / GitHub",
@@ -185,12 +188,12 @@ const Skills: React.FC = () => {
               description=" Participated in the Tumo Labs Yerevan Guided Self-Learning program to deepen both technical and soft skills, regularly completing projects, challenges, and other assignments."
             />
 
-             {/* <EducationCard
+              <EducationCard
               logo="/images/gurus.jpg"
               title="Gurus LLC Clinical SAS BASE Programming"
               year="2025"
               description="Studied Clinical SAS BASE programming and data analytics at Gurus LLC, focusing on data manipulation, statistical analysis, and clinical research reporting."
-            /> */}
+            />
             <EducationCard
               logo="/images/gitc.jpg"
               title="Gyumri IT Tecnologie Center (GITC) Front-end development"
@@ -224,12 +227,12 @@ const Skills: React.FC = () => {
           ))}
         </div>
 
-        {/* <SectionTitle title="Data Science & Analytics" />
+         <SectionTitle title="Data Science & Analytics" />
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
           {dataScienceSkills.map((skill, index) => (
             <SkillCard key={index} skill={skill} />
           ))}
-        </div> */}
+        </div>
 
         <SectionTitle title="Other Skills" />
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
